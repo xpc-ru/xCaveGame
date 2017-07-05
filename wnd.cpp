@@ -318,7 +318,7 @@ void CWnd::mousePressEvent(QMouseEvent *pMouseEvent)
 					else
 					{
 						//state = MPWorld;
-						//game[other_player.y()][other_player.x()] = 6;
+						//game[other_player.y()][other_player.x()] = 7; //6 - hosh; 7 - client
 						state = MainMenu;
 					}
 				}
