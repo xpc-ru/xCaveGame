@@ -30,6 +30,12 @@ const unsigned short GAME_COLS   = 80;
 const unsigned short SPAWN_ROW   = 14;
 const unsigned short SPAWN_COL   =  0;
 
+/*****/
+/*
+*/
+// Test GIT in VisualStudio.
+/*****/
+
 //=============================================================================
 string Q2Cstr(const QString& str)
 {
