@@ -553,6 +553,10 @@ void CWnd::load()
 }
 bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
 {
+	//Could anybody fix XCG-0001: you see bedrock stairs. you climb them once.
+	//                            but when you try again - you can't get up.
+	//                            Please, fix it.
+	//Report #0001 from 7/06/2017
 	QPoint *pl;
 	if(bClient)
 		pl = &other_player;
