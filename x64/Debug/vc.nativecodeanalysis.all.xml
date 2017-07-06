@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
     <SFA>
-      <FILEPATH>z:\_grisha\_files\qt5\5.8\msvc2015_64\include\qtgui\</FILEPATH>
+      <FILEPATH>c:\qt\qt5.6.2\5.6\msvc2015_64\include\qtgui\</FILEPATH>
       <FILENAME>qpixelformat.h</FILENAME>
-      <LINE>220</LINE>
+      <LINE>214</LINE>
       <COLUMN>54</COLUMN>
     </SFA>
     <DEFECTCODE>6326</DEFECTCODE>
     <DESCRIPTION>Potential comparison of a constant with another constant.</DESCRIPTION>
     <FUNCTION>QPixelFormat::resolveByteOrder</FUNCTION>
     <DECORATED>?resolveByteOrder@QPixelFormat@@CA?AW4ByteOrder@1@W421@@Z</DECORATED>
-    <FUNCLINE>219</FUNCLINE>
+    <FUNCLINE>213</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>main.cpp</FILENAME>
       <LINE>9</LINE>
       <COLUMN>8</COLUMN>
@@ -26,7 +26,7 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
       <LINE>533</LINE>
       <COLUMN>10</COLUMN>
@@ -39,7 +39,7 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
       <LINE>534</LINE>
       <COLUMN>9</COLUMN>
@@ -52,7 +52,7 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
       <LINE>540</LINE>
       <COLUMN>9</COLUMN>
@@ -65,7 +65,7 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
       <LINE>541</LINE>
       <COLUMN>8</COLUMN>
@@ -78,7 +78,7 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
       <LINE>542</LINE>
       <COLUMN>8</COLUMN>
@@ -91,67 +91,67 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>635</LINE>
+      <LINE>640</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>633</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>640</LINE>
+      <LINE>645</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>633</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>644</LINE>
+      <LINE>649</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>633</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>646</LINE>
+      <LINE>651</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>633</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILEPATH>e:\_yuri\__projects\xcavegame_git\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>658</LINE>
+      <LINE>663</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>633</FUNCLINE>
     <PATH></PATH>
   </DEFECT></DEFECTS>
