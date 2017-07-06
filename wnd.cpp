@@ -557,6 +557,7 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
 	//                            but when you try again - you can't get up.
 	//                            Please, fix it.
 	//Report #0001 from 7/06/2017
+	//Commit 98788b73
 	QPoint *pl;
 	if(bClient)
 		pl = &other_player;
