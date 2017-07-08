@@ -579,12 +579,12 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/) //ONLY FOR PLAYERS!!!
 	//Report #0002 from  7/08/2017
 	//Fix    #0002 from  7/08/2017
 	//Commit 517b900a add
-	//Commit          fix
+	//Commit d5fe5b07 fix
 
 	//Bug XCG-0003: Head duplicates and flies when you go "left outside"
 	//Report #0003 from  7/08/2017
 	//Fix    #0003 from --/--/20--
-	//Commit          add
+	//Commit d5fe5b07 add
 	//Commit          fix
 	QPoint *pl;
 	if(bClient)
