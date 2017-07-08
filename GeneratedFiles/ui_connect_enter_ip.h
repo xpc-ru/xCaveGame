@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'connect_enter_ip.ui'
 **
-** Created by: Qt User Interface Compiler version 5.6.2
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -51,10 +51,10 @@ public:
 
     void retranslateUi(QDialog *Connect)
     {
-        Connect->setWindowTitle(QApplication::translate("Connect", "Connect by ip", 0));
-        lineEdit->setInputMask(QApplication::translate("Connect", "000.000.000.000;_", 0));
-        label->setText(QApplication::translate("Connect", "Enter IP to connect:", 0));
-        pushButton->setText(QApplication::translate("Connect", "Connect", 0));
+        Connect->setWindowTitle(QApplication::translate("Connect", "Connect by ip", Q_NULLPTR));
+        lineEdit->setInputMask(QApplication::translate("Connect", "000.000.000.000;_", Q_NULLPTR));
+        label->setText(QApplication::translate("Connect", "Enter IP to connect:", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("Connect", "Connect", Q_NULLPTR));
     } // retranslateUi
 
 };

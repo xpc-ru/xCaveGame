@@ -103,7 +103,7 @@ CWnd::CWnd(QWidget *parent)
 				game[i][j] = 1;   //stone
 		}
 	}
-	game[SPAWN_ROW][SPAWN_COL-1] = 6; //player
+	game[SPAWN_ROW-1][SPAWN_COL] = 6; //player
 	game[SPAWN_ROW][SPAWN_COL] = 7; //body
 
 	game[14][1] = 5;
@@ -573,11 +573,18 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/) //ONLY FOR PLAYERS!!!
 	//                  [][][][][][][][][][]
 	//                ->[][][][][][][][][][]-> //blocks from [4][0] to [5][5]
 	//                  [][][][][]
-	//              frome one side to another. It's not a bug, xcg-0000, it's a feature
-	//              with this bug...
+	//              frome one side to another we see our head flying - xcg-0003. It's
+	//              not a bug, xcg-0000 (go outside the map), it's a feature with this
+	//              bug...
 	//Report #0002 from  7/08/2017
-	//Fix    #0002 from --/--/20--
+	//Fix    #0002 from  7/08/2017
 	//Commit 517b900a add
+	//Commit          fix
+
+	//Bug XCG-0003: Head duplicates and flies when you go "left outside"
+	//Report #0003 from  7/08/2017
+	//Fix    #0003 from --/--/20--
+	//Commit          add
 	//Commit          fix
 	QPoint *pl;
 	if(bClient)

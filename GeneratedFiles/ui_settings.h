@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'settings.ui'
 **
-** Created by: Qt User Interface Compiler version 5.6.2
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -80,12 +80,12 @@ public:
 
     void retranslateUi(QDialog *Settings)
     {
-        Settings->setWindowTitle(QApplication::translate("Settings", "Settings", 0));
-        label->setText(QApplication::translate("Settings", "Sound volume", 0));
-        show_full->setText(QApplication::translate("Settings", "Fullscreen", 0));
-        show_window->setText(QApplication::translate("Settings", "Window", 0));
-        show_maximise->setText(QApplication::translate("Settings", "Maximise", 0));
-        label_2->setText(QApplication::translate("Settings", "Nickname (multiplayer)", 0));
+        Settings->setWindowTitle(QApplication::translate("Settings", "Settings", Q_NULLPTR));
+        label->setText(QApplication::translate("Settings", "Sound volume", Q_NULLPTR));
+        show_full->setText(QApplication::translate("Settings", "Fullscreen", Q_NULLPTR));
+        show_window->setText(QApplication::translate("Settings", "Window", Q_NULLPTR));
+        show_maximise->setText(QApplication::translate("Settings", "Maximise", Q_NULLPTR));
+        label_2->setText(QApplication::translate("Settings", "Nickname (multiplayer)", Q_NULLPTR));
     } // retranslateUi
 
 };
