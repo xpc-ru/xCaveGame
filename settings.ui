@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>258</width>
+    <width>262</width>
     <height>101</height>
    </rect>
   </property>
@@ -38,9 +38,9 @@
   <widget class="QSlider" name="horizontalSlider">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>100</x>
      <y>30</y>
-     <width>171</width>
+     <width>151</width>
      <height>16</height>
     </rect>
    </property>
@@ -53,7 +53,7 @@
     <rect>
      <x>10</x>
      <y>30</y>
-     <width>71</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
@@ -105,7 +105,7 @@
     <rect>
      <x>10</x>
      <y>50</y>
-     <width>111</width>
+     <width>141</width>
      <height>16</height>
     </rect>
    </property>
@@ -116,9 +116,9 @@
   <widget class="QLineEdit" name="nickname">
    <property name="geometry">
     <rect>
-     <x>120</x>
+     <x>150</x>
      <y>50</y>
-     <width>131</width>
+     <width>101</width>
      <height>21</height>
     </rect>
    </property>
