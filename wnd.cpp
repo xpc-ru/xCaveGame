@@ -562,7 +562,7 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/) //ONLY FOR PLAYERS!!!
 	//Report #0001 from  7/06/2017
 	//Fix    #0001 from  7/08/2017
 	//Commit 98788b73 add
-	//Commit          fix: I fixed this adding XCG-0002
+	//Commit 517b900a fix: I fixed this adding XCG-0002
 
 	//Bug XCG-0002: Added 2 bl. up and 1 bl. wide player - it seems like minecraft
 	//              But when going "outside" by map:
@@ -577,7 +577,7 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/) //ONLY FOR PLAYERS!!!
 	//              with this bug...
 	//Report #0002 from  7/08/2017
 	//Fix    #0002 from --/--/20--
-	//Commit          add
+	//Commit 517b900a add
 	//Commit          fix
 	QPoint *pl;
 	if(bClient)
