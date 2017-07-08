@@ -18,126 +18,912 @@
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>533</LINE>
+      <LINE>106</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'this-&gt;game[SPAWN_ROW]':  the writable size is '160' bytes, but '-2' bytes might be written.</DESCRIPTION>
+    <FUNCTION>CWnd::{ctor}</FUNCTION>
+    <DECORATED>??0CWnd@@QEAA@PEAVQWidget@@@Z</DECORATED>
+    <FUNCLINE>47</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>64</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>49</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>52</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.h</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>54</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>61</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>64</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>66</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>45</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>67</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>68</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>76</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>57</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>81</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>84</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>85</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>86</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;GAME_ROWS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;GAME_COLS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==59' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i&lt;15')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;GAME_COLS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>94</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i==59' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>96</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i&lt;15')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>97</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;GAME_COLS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;GAME_ROWS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>92</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;GAME_COLS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>90</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;GAME_ROWS')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+        <FILENAME>wnd.cpp</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'this-&gt;game[SPAWN_ROW][-1]', (writable range is 0 to 79)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILENAME>wnd.cpp</FILENAME>
+      <LINE>536</LINE>
       <COLUMN>10</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::load</FUNCTION>
     <DECORATED>?load@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>517</FUNCLINE>
+    <FUNCLINE>520</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>534</LINE>
+      <LINE>537</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::load</FUNCTION>
     <DECORATED>?load@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>517</FUNCLINE>
+    <FUNCLINE>520</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>540</LINE>
+      <LINE>543</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::load</FUNCTION>
     <DECORATED>?load@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>517</FUNCLINE>
+    <FUNCLINE>520</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>541</LINE>
+      <LINE>544</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::load</FUNCTION>
     <DECORATED>?load@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>517</FUNCLINE>
+    <FUNCLINE>520</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>542</LINE>
+      <LINE>545</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::load</FUNCTION>
     <DECORATED>?load@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>517</FUNCLINE>
+    <FUNCLINE>520</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>635</LINE>
+      <LINE>647</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>640</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>640</LINE>
+      <LINE>652</LINE>
       <COLUMN>9</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>640</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
     <SFA>
       <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
       <FILENAME>wnd.cpp</FILENAME>
-      <LINE>644</LINE>
+      <LINE>656</LINE>
       <COLUMN>8</COLUMN>
     </SFA>
     <DEFECTCODE>6031</DEFECTCODE>
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT>
-  <DEFECT>
-    <SFA>
-      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
-      <FILENAME>wnd.cpp</FILENAME>
-      <LINE>646</LINE>
-      <COLUMN>8</COLUMN>
-    </SFA>
-    <DEFECTCODE>6031</DEFECTCODE>
-    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
-    <FUNCTION>CWnd::loaddata</FUNCTION>
-    <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>640</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
   <DEFECT>
@@ -151,7 +937,21 @@
     <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
     <FUNCTION>CWnd::loaddata</FUNCTION>
     <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
-    <FUNCLINE>628</FUNCLINE>
+    <FUNCLINE>640</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\_grisha\xcavegame\</FILEPATH>
+      <FILENAME>wnd.cpp</FILENAME>
+      <LINE>670</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'fscanf'.</DESCRIPTION>
+    <FUNCTION>CWnd::loaddata</FUNCTION>
+    <DECORATED>?loaddata@CWnd@@AEAAXXZ</DECORATED>
+    <FUNCLINE>640</FUNCLINE>
     <PATH></PATH>
   </DEFECT>
 </DEFECTS>

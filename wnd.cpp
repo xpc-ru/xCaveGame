@@ -103,7 +103,8 @@ CWnd::CWnd(QWidget *parent)
 				game[i][j] = 1;   //stone
 		}
 	}
-	game[SPAWN_ROW][SPAWN_COL] = 6; //player
+	game[SPAWN_ROW][SPAWN_COL-1] = 6; //player
+	game[SPAWN_ROW][SPAWN_COL] = 7; //body
 
 	game[14][1] = 5;
 	game[13][2] = 5;
@@ -118,7 +119,6 @@ CWnd::CWnd(QWidget *parent)
 	game[4][11] = 5;
 	game[3][12] = 5;
 	game[2][13] = 5;
-	game[1][14] = 5;
 
 	player.setX(SPAWN_COL);
 	player.setY(SPAWN_ROW);
@@ -318,7 +318,8 @@ void CWnd::mousePressEvent(QMouseEvent *pMouseEvent)
 					else
 					{
 						//state = MPWorld;
-						//game[other_player.y()][other_player.x()] = 7; //6 - hosh; 7 - client
+						//game[other_player.y()][other_player.x()] = 7; //6 - host; 8 - client
+						//game[other_player.y()-1][other_player.x()] = 8; //7 - body
 						state = MainMenu;
 					}
 				}
@@ -371,6 +372,7 @@ void CWnd::keyPressEvent(QKeyEvent *pKeyEvent)
 			(health < 1))
 		{
 			game[player.y()][player.x()] = 0;
+			game[player.y()-1][player.x()] = 0;
 			QMessageBox died(QMessageBox::Information,
 				"xCaveGame World",
 				"YOU DIED!");
@@ -381,7 +383,8 @@ void CWnd::keyPressEvent(QKeyEvent *pKeyEvent)
 			{
 				player.setX(SPAWN_COL);
 				player.setY(SPAWN_ROW);
-				game[player.y()][player.x()] = 6;
+				game[player.y()][player.x()] = 7;
+				game[player.y()-1][player.x()] = 6;
 				health = 100;
 			}
 			else
@@ -551,13 +554,31 @@ void CWnd::load()
 		QMessageBox::critical(0, "xCaveGame ERROR",
 			"File is corrupted, secured, opened in another application or disk is full");
 }
-bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
+bool CWnd::tryGo(EDirection d, bool bClient /* = false*/) //ONLY FOR PLAYERS!!!
 {
-	//Could anybody fix XCG-0001: you see bedrock stairs. you climb them once.
-	//                            but when you try again - you can't get up.
-	//                            Please, fix it.
-	//Report #0001 from 7/06/2017
-	//Commit 98788b73
+	//Bug XCG-0001: you see bedrock stairs. you climb them once.
+	//              but when you try again - you can't get up.
+	//              magic!
+	//Report #0001 from  7/06/2017
+	//Fix    #0001 from  7/08/2017
+	//Commit 98788b73 add
+	//Commit          fix: I fixed this adding XCG-0002
+
+	//Bug XCG-0002: Added 2 bl. up and 1 bl. wide player - it seems like minecraft
+	//              But when going "outside" by map:
+	//                          Array[5][5]:
+	//                Array[5][5]:[][][][][]
+	//                  [][][][][][][][][][]
+	//                  [][][][][][][][][][]
+	//                  [][][][][][][][][][]
+	//                ->[][][][][][][][][][]-> //blocks from [4][0] to [5][5]
+	//                  [][][][][]
+	//              frome one side to another. It's not a bug, xcg-0000, it's a feature
+	//              with this bug...
+	//Report #0002 from  7/08/2017
+	//Fix    #0002 from --/--/20--
+	//Commit          add
+	//Commit          fix
 	QPoint *pl;
 	if(bClient)
 		pl = &other_player;
@@ -565,11 +586,12 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
 		pl = &player;
 	bool moved = false;
 	game[pl->y()][pl->x()] = 0;
+	game[pl->y()-1][pl->x()] = 0;
 	switch(d)
 	{
 		case UP:
-			if((pl->y() == 0) ||
-			   (game[pl->y()-1][pl->x()] != 0))
+			if((pl->y()-1 == 0) ||
+			   (game[pl->y()-2][pl->x()] != 0))
 				break;
 			moved = true;
 			pl->setY(pl->y()-1);
@@ -590,6 +612,7 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
 					break;
 			moved = true;
 			game[pl->y()][pl->x()] = 0;
+			game[pl->y()][pl->x() - 1] = 0;
 			pl->setX(pl->x()-1);
 			break;
 		//===================================================
@@ -600,13 +623,15 @@ bool CWnd::tryGo(EDirection d, bool bClient /* = false*/)
 					break;
 			moved = true;
 			game[pl->y()][pl->x()] = 0;
+			game[pl->y()-1][pl->x()] = 0;
 			pl->setX(pl->x()+1);
 			break;
 		//===================================================
 		default:
 			break;
 	}
-	game[pl->y()][pl->x()] = 6;
+	game[pl->y()][pl->x()] = 7;
+	game[pl->y() - 1][pl->x()] = (bClient ? 8 : 6);;
 	return moved;
 }
 
